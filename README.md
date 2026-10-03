@@ -3,9 +3,9 @@
 Chosen-ciphertext key-recovery against the bundled Polar-LAC reference KEMs.
 
 ```bash
-bash build.sh                 # build everything
-bash run_pco.sh    [light|128]  # theoretical oracle (fast, deterministic)
-bash run_timing.sh [light|128]  # physical oracle (real decaps wall-clock)
+bash build.sh       # build everything
+bash run_pco.sh     # theoretical oracle (fast, deterministic)
+bash run_timing.sh  # physical oracle (real decaps wall-clock)
 ```
 
 ## Setup

@@ -1,0 +1,268 @@
+>>> TIMING full-key recovery  [POLARLAC-Light : q=257 n=256 K=2 c2=3-bit (D_C2_BITS=3) T=576]  --  256 blocks (= 512 secret coefficients), 6 threads
+    (physical oracle = real decaps clock; measured ~66 min on 6 cores)
+    (freq-sensitive: pin CPU for stable timing; progress + ETA stream below)
+[  1/256 units] OK   u=172(poly=1 blk=44)  ok=1  q=66k  elapsed=92s eta=3906s
+[  2/256 units] OK   u=43(poly=0 blk=43)  ok=2  q=132k  elapsed=92s eta=3893s
+[  3/256 units] OK   u=0(poly=0 blk=0)  ok=3  q=199k  elapsed=92s eta=3878s
+[  4/256 units] OK   u=215(poly=1 blk=87)  ok=4  q=265k  elapsed=92s eta=3863s
+[  5/256 units] OK   u=129(poly=1 blk=1)  ok=5  q=332k  elapsed=92s eta=3851s
+[  6/256 units] OK   u=86(poly=0 blk=86)  ok=6  q=398k  elapsed=92s eta=3849s
+[  7/256 units] OK   u=173(poly=1 blk=45)  ok=7  q=465k  elapsed=184s eta=3833s
+[  8/256 units] OK   u=44(poly=0 blk=44)  ok=8  q=531k  elapsed=184s eta=3818s
+[  9/256 units] OK   u=130(poly=1 blk=2)  ok=9  q=598k  elapsed=184s eta=3802s
+[ 10/256 units] OK   u=216(poly=1 blk=88)  ok=10  q=664k  elapsed=184s eta=3787s
+[ 11/256 units] OK   u=1(poly=0 blk=1)  ok=11  q=730k  elapsed=184s eta=3772s
+[ 12/256 units] OK   u=87(poly=0 blk=87)  ok=12  q=797k  elapsed=184s eta=3748s
+[ 13/256 units] OK   u=174(poly=1 blk=46)  ok=13  q=863k  elapsed=276s eta=3732s
+[ 14/256 units] OK   u=131(poly=1 blk=3)  ok=14  q=930k  elapsed=276s eta=3717s
+[ 15/256 units] OK   u=217(poly=1 blk=89)  ok=15  q=996k  elapsed=276s eta=3702s
+[ 16/256 units] OK   u=45(poly=0 blk=45)  ok=16  q=1063k  elapsed=276s eta=3686s
+[ 17/256 units] OK   u=88(poly=0 blk=88)  ok=17  q=1129k  elapsed=276s eta=3671s
+[ 18/256 units] OK   u=2(poly=0 blk=2)  ok=18  q=1196k  elapsed=277s eta=3657s
+[ 19/256 units] OK   u=132(poly=1 blk=4)  ok=19  q=1262k  elapsed=368s eta=3641s
+[ 20/256 units] OK   u=175(poly=1 blk=47)  ok=20  q=1329k  elapsed=368s eta=3626s
+[ 21/256 units] OK   u=218(poly=1 blk=90)  ok=21  q=1395k  elapsed=368s eta=3611s
+[ 22/256 units] OK   u=89(poly=0 blk=89)  ok=22  q=1462k  elapsed=369s eta=3595s
+[ 23/256 units] OK   u=46(poly=0 blk=46)  ok=23  q=1528k  elapsed=369s eta=3580s
+[ 24/256 units] OK   u=3(poly=0 blk=3)  ok=24  q=1595k  elapsed=369s eta=3567s
+[ 25/256 units] OK   u=176(poly=1 blk=48)  ok=25  q=1661k  elapsed=460s eta=3552s
+[ 26/256 units] OK   u=133(poly=1 blk=5)  ok=26  q=1728k  elapsed=460s eta=3537s
+[ 27/256 units] OK   u=219(poly=1 blk=91)  ok=27  q=1794k  elapsed=460s eta=3521s
+[ 28/256 units] OK   u=90(poly=0 blk=90)  ok=28  q=1861k  elapsed=461s eta=3506s
+[ 29/256 units] OK   u=47(poly=0 blk=47)  ok=29  q=1927k  elapsed=461s eta=3491s
+[ 30/256 units] OK   u=4(poly=0 blk=4)  ok=30  q=1994k  elapsed=461s eta=3474s
+[ 31/256 units] OK   u=177(poly=1 blk=49)  ok=31  q=2060k  elapsed=552s eta=3459s
+[ 32/256 units] OK   u=220(poly=1 blk=92)  ok=32  q=2127k  elapsed=552s eta=3443s
+[ 33/256 units] OK   u=134(poly=1 blk=6)  ok=33  q=2193k  elapsed=552s eta=3428s
+[ 34/256 units] OK   u=48(poly=0 blk=48)  ok=34  q=2260k  elapsed=553s eta=3413s
+[ 35/256 units] OK   u=5(poly=0 blk=5)  ok=35  q=2326k  elapsed=554s eta=3397s
+[ 36/256 units] OK   u=91(poly=0 blk=91)  ok=36  q=2393k  elapsed=554s eta=3383s
+[ 37/256 units] OK   u=178(poly=1 blk=50)  ok=37  q=2459k  elapsed=644s eta=3368s
+[ 38/256 units] OK   u=221(poly=1 blk=93)  ok=38  q=2526k  elapsed=644s eta=3352s
+[ 39/256 units] OK   u=135(poly=1 blk=7)  ok=39  q=2592k  elapsed=644s eta=3337s
+[ 40/256 units] OK   u=49(poly=0 blk=49)  ok=40  q=2659k  elapsed=645s eta=3322s
+[ 41/256 units] OK   u=6(poly=0 blk=6)  ok=41  q=2725k  elapsed=646s eta=3306s
+[ 42/256 units] OK   u=92(poly=0 blk=92)  ok=42  q=2792k  elapsed=646s eta=3291s
+[ 43/256 units] OK   u=179(poly=1 blk=51)  ok=43  q=2858k  elapsed=736s eta=3275s
+[ 44/256 units] OK   u=222(poly=1 blk=94)  ok=44  q=2924k  elapsed=736s eta=3260s
+[ 45/256 units] OK   u=136(poly=1 blk=8)  ok=45  q=2991k  elapsed=736s eta=3244s
+[ 46/256 units] OK   u=50(poly=0 blk=50)  ok=46  q=3057k  elapsed=737s eta=3229s
+[ 47/256 units] OK   u=7(poly=0 blk=7)  ok=47  q=3124k  elapsed=738s eta=3214s
+[ 48/256 units] OK   u=93(poly=0 blk=93)  ok=48  q=3190k  elapsed=738s eta=3197s
+[ 49/256 units] OK   u=223(poly=1 blk=95)  ok=49  q=3257k  elapsed=828s eta=3182s
+[ 50/256 units] OK   u=180(poly=1 blk=52)  ok=50  q=3323k  elapsed=828s eta=3166s
+[ 51/256 units] OK   u=137(poly=1 blk=9)  ok=51  q=3390k  elapsed=828s eta=3151s
+[ 52/256 units] OK   u=51(poly=0 blk=51)  ok=52  q=3456k  elapsed=829s eta=3136s
+[ 53/256 units] OK   u=8(poly=0 blk=8)  ok=53  q=3522k  elapsed=829s eta=3120s
+[ 54/256 units] OK   u=94(poly=0 blk=94)  ok=54  q=3589k  elapsed=830s eta=3105s
+[ 55/256 units] OK   u=224(poly=1 blk=96)  ok=55  q=3655k  elapsed=921s eta=3090s
+[ 56/256 units] OK   u=138(poly=1 blk=10)  ok=56  q=3722k  elapsed=921s eta=3074s
+[ 57/256 units] OK   u=181(poly=1 blk=53)  ok=57  q=3788k  elapsed=922s eta=3059s
+[ 58/256 units] OK   u=52(poly=0 blk=52)  ok=58  q=3855k  elapsed=922s eta=3044s
+[ 59/256 units] OK   u=9(poly=0 blk=9)  ok=59  q=3921k  elapsed=923s eta=3028s
+[ 60/256 units] OK   u=95(poly=0 blk=95)  ok=60  q=3988k  elapsed=923s eta=3016s
+[ 61/256 units] OK   u=225(poly=1 blk=97)  ok=61  q=4054k  elapsed=1013s eta=3000s
+[ 62/256 units] OK   u=139(poly=1 blk=11)  ok=62  q=4121k  elapsed=1014s eta=2985s
+[ 63/256 units] OK   u=182(poly=1 blk=54)  ok=63  q=4187k  elapsed=1014s eta=2970s
+[ 64/256 units] OK   u=53(poly=0 blk=53)  ok=64  q=4254k  elapsed=1014s eta=2954s
+[ 65/256 units] OK   u=10(poly=0 blk=10)  ok=65  q=4320k  elapsed=1015s eta=2939s
+[ 66/256 units] OK   u=96(poly=0 blk=96)  ok=66  q=4386k  elapsed=1015s eta=2923s
+[ 67/256 units] OK   u=54(poly=0 blk=54)  ok=67  q=4453k  elapsed=1108s eta=2907s
+[ 68/256 units] OK   u=226(poly=1 blk=98)  ok=68  q=4519k  elapsed=1110s eta=2892s
+[ 69/256 units] OK   u=183(poly=1 blk=55)  ok=69  q=4586k  elapsed=1110s eta=2876s
+[ 70/256 units] OK   u=11(poly=0 blk=11)  ok=70  q=4652k  elapsed=1111s eta=2861s
+[ 71/256 units] OK   u=140(poly=1 blk=12)  ok=71  q=4719k  elapsed=1113s eta=2846s
+[ 72/256 units] OK   u=97(poly=0 blk=97)  ok=72  q=4785k  elapsed=1116s eta=2851s
+[ 73/256 units] OK   u=55(poly=0 blk=55)  ok=73  q=4852k  elapsed=1202s eta=2836s
+[ 74/256 units] OK   u=227(poly=1 blk=99)  ok=74  q=4918k  elapsed=1203s eta=2820s
+[ 75/256 units] OK   u=12(poly=0 blk=12)  ok=75  q=4985k  elapsed=1205s eta=2805s
+[ 76/256 units] OK   u=184(poly=1 blk=56)  ok=76  q=5051k  elapsed=1206s eta=2789s
+[ 77/256 units] OK   u=141(poly=1 blk=13)  ok=77  q=5118k  elapsed=1207s eta=2774s
+[ 78/256 units] OK   u=98(poly=0 blk=98)  ok=78  q=5184k  elapsed=1208s eta=2757s
+[ 79/256 units] OK   u=56(poly=0 blk=56)  ok=79  q=5251k  elapsed=1294s eta=2742s
+[ 80/256 units] OK   u=228(poly=1 blk=100)  ok=80  q=5317k  elapsed=1295s eta=2726s
+[ 81/256 units] OK   u=13(poly=0 blk=13)  ok=81  q=5383k  elapsed=1297s eta=2711s
+[ 82/256 units] OK   u=185(poly=1 blk=57)  ok=82  q=5450k  elapsed=1298s eta=2695s
+[ 83/256 units] OK   u=142(poly=1 blk=14)  ok=83  q=5516k  elapsed=1299s eta=2680s
+[ 84/256 units] OK   u=99(poly=0 blk=99)  ok=84  q=5583k  elapsed=1300s eta=2662s
+[ 85/256 units] OK   u=57(poly=0 blk=57)  ok=85  q=5649k  elapsed=1386s eta=2647s
+[ 86/256 units] OK   u=229(poly=1 blk=101)  ok=86  q=5716k  elapsed=1387s eta=2631s
+[ 87/256 units] OK   u=14(poly=0 blk=14)  ok=87  q=5782k  elapsed=1389s eta=2616s
+[ 88/256 units] OK   u=186(poly=1 blk=58)  ok=88  q=5849k  elapsed=1390s eta=2600s
+[ 89/256 units] OK   u=143(poly=1 blk=15)  ok=89  q=5915k  elapsed=1391s eta=2585s
+[ 90/256 units] OK   u=100(poly=0 blk=100)  ok=90  q=5982k  elapsed=1392s eta=2568s
+[ 91/256 units] OK   u=58(poly=0 blk=58)  ok=91  q=6048k  elapsed=1478s eta=2552s
+[ 92/256 units] OK   u=230(poly=1 blk=102)  ok=92  q=6115k  elapsed=1479s eta=2537s
+[ 93/256 units] OK   u=15(poly=0 blk=15)  ok=93  q=6181k  elapsed=1481s eta=2522s
+[ 94/256 units] OK   u=187(poly=1 blk=59)  ok=94  q=6247k  elapsed=1482s eta=2506s
+[ 95/256 units] OK   u=144(poly=1 blk=16)  ok=95  q=6314k  elapsed=1483s eta=2491s
+[ 96/256 units] OK   u=101(poly=0 blk=101)  ok=96  q=6380k  elapsed=1484s eta=2474s
+[ 97/256 units] OK   u=59(poly=0 blk=59)  ok=97  q=6447k  elapsed=1570s eta=2458s
+[ 98/256 units] OK   u=231(poly=1 blk=103)  ok=98  q=6513k  elapsed=1571s eta=2443s
+[ 99/256 units] OK   u=16(poly=0 blk=16)  ok=99  q=6580k  elapsed=1573s eta=2427s
+[100/256 units] OK   u=188(poly=1 blk=60)  ok=100  q=6646k  elapsed=1574s eta=2412s
+[101/256 units] OK   u=145(poly=1 blk=17)  ok=101  q=6712k  elapsed=1575s eta=2396s
+[102/256 units] OK   u=102(poly=0 blk=102)  ok=102  q=6779k  elapsed=1576s eta=2380s
+[103/256 units] OK   u=60(poly=0 blk=60)  ok=103  q=6845k  elapsed=1662s eta=2364s
+[104/256 units] OK   u=232(poly=1 blk=104)  ok=104  q=6912k  elapsed=1663s eta=2349s
+[105/256 units] OK   u=17(poly=0 blk=17)  ok=105  q=6978k  elapsed=1665s eta=2333s
+[106/256 units] OK   u=189(poly=1 blk=61)  ok=106  q=7045k  elapsed=1666s eta=2318s
+[107/256 units] OK   u=146(poly=1 blk=18)  ok=107  q=7111k  elapsed=1666s eta=2302s
+[108/256 units] OK   u=103(poly=0 blk=103)  ok=108  q=7177k  elapsed=1668s eta=2286s
+[109/256 units] OK   u=61(poly=0 blk=61)  ok=109  q=7244k  elapsed=1754s eta=2270s
+[110/256 units] OK   u=233(poly=1 blk=105)  ok=110  q=7310k  elapsed=1754s eta=2255s
+[111/256 units] OK   u=18(poly=0 blk=18)  ok=111  q=7377k  elapsed=1757s eta=2240s
+[112/256 units] OK   u=190(poly=1 blk=62)  ok=112  q=7443k  elapsed=1758s eta=2224s
+[113/256 units] OK   u=147(poly=1 blk=19)  ok=113  q=7510k  elapsed=1758s eta=2209s
+[114/256 units] OK   u=104(poly=0 blk=104)  ok=114  q=7576k  elapsed=1760s eta=2192s
+[115/256 units] OK   u=62(poly=0 blk=62)  ok=115  q=7643k  elapsed=1846s eta=2177s
+[116/256 units] OK   u=234(poly=1 blk=106)  ok=116  q=7709k  elapsed=1846s eta=2161s
+[117/256 units] OK   u=19(poly=0 blk=19)  ok=117  q=7775k  elapsed=1849s eta=2146s
+[118/256 units] OK   u=191(poly=1 blk=63)  ok=118  q=7842k  elapsed=1850s eta=2130s
+[119/256 units] OK   u=148(poly=1 blk=20)  ok=119  q=7908k  elapsed=1850s eta=2115s
+[120/256 units] OK   u=105(poly=0 blk=105)  ok=120  q=7975k  elapsed=1852s eta=2099s
+[121/256 units] OK   u=63(poly=0 blk=63)  ok=121  q=8041k  elapsed=1938s eta=2083s
+[122/256 units] OK   u=235(poly=1 blk=107)  ok=122  q=8107k  elapsed=1938s eta=2068s
+[123/256 units] OK   u=20(poly=0 blk=20)  ok=123  q=8174k  elapsed=1941s eta=2052s
+[124/256 units] OK   u=192(poly=1 blk=64)  ok=124  q=8240k  elapsed=1942s eta=2037s
+[125/256 units] OK   u=149(poly=1 blk=21)  ok=125  q=8307k  elapsed=1942s eta=2022s
+[126/256 units] OK   u=106(poly=0 blk=106)  ok=126  q=8373k  elapsed=1944s eta=2005s
+[127/256 units] OK   u=64(poly=0 blk=64)  ok=127  q=8440k  elapsed=2030s eta=1990s
+[128/256 units] OK   u=236(poly=1 blk=108)  ok=128  q=8506k  elapsed=2030s eta=1975s
+[129/256 units] OK   u=21(poly=0 blk=21)  ok=129  q=8573k  elapsed=2033s eta=1959s
+[130/256 units] OK   u=193(poly=1 blk=65)  ok=130  q=8639k  elapsed=2034s eta=1944s
+[131/256 units] OK   u=150(poly=1 blk=22)  ok=131  q=8705k  elapsed=2034s eta=1928s
+[132/256 units] OK   u=107(poly=0 blk=107)  ok=132  q=8772k  elapsed=2036s eta=1912s
+[133/256 units] OK   u=65(poly=0 blk=65)  ok=133  q=8838k  elapsed=2121s eta=1897s
+[134/256 units] OK   u=237(poly=1 blk=109)  ok=134  q=8905k  elapsed=2122s eta=1882s
+[135/256 units] OK   u=22(poly=0 blk=22)  ok=135  q=8971k  elapsed=2125s eta=1866s
+[136/256 units] OK   u=194(poly=1 blk=66)  ok=136  q=9038k  elapsed=2125s eta=1851s
+[137/256 units] OK   u=151(poly=1 blk=23)  ok=137  q=9104k  elapsed=2126s eta=1835s
+[138/256 units] OK   u=108(poly=0 blk=108)  ok=138  q=9170k  elapsed=2128s eta=1819s
+[139/256 units] OK   u=66(poly=0 blk=66)  ok=139  q=9237k  elapsed=2213s eta=1804s
+[140/256 units] OK   u=238(poly=1 blk=110)  ok=140  q=9303k  elapsed=2214s eta=1788s
+[141/256 units] OK   u=23(poly=0 blk=23)  ok=141  q=9370k  elapsed=2217s eta=1773s
+[142/256 units] OK   u=195(poly=1 blk=67)  ok=142  q=9436k  elapsed=2217s eta=1758s
+[143/256 units] OK   u=152(poly=1 blk=24)  ok=143  q=9503k  elapsed=2218s eta=1742s
+[144/256 units] OK   u=109(poly=0 blk=109)  ok=144  q=9569k  elapsed=2220s eta=1726s
+[145/256 units] OK   u=67(poly=0 blk=67)  ok=145  q=9636k  elapsed=2305s eta=1711s
+[146/256 units] OK   u=239(poly=1 blk=111)  ok=146  q=9702k  elapsed=2305s eta=1696s
+[147/256 units] OK   u=24(poly=0 blk=24)  ok=147  q=9768k  elapsed=2309s eta=1680s
+[148/256 units] OK   u=196(poly=1 blk=68)  ok=148  q=9835k  elapsed=2309s eta=1665s
+[149/256 units] OK   u=153(poly=1 blk=25)  ok=149  q=9901k  elapsed=2310s eta=1649s
+[150/256 units] OK   u=110(poly=0 blk=110)  ok=150  q=9968k  elapsed=2312s eta=1633s
+[151/256 units] OK   u=68(poly=0 blk=68)  ok=151  q=10034k  elapsed=2397s eta=1618s
+[152/256 units] OK   u=240(poly=1 blk=112)  ok=152  q=10101k  elapsed=2397s eta=1603s
+[153/256 units] OK   u=25(poly=0 blk=25)  ok=153  q=10167k  elapsed=2401s eta=1587s
+[154/256 units] OK   u=197(poly=1 blk=69)  ok=154  q=10234k  elapsed=2401s eta=1572s
+[155/256 units] OK   u=154(poly=1 blk=26)  ok=155  q=10300k  elapsed=2402s eta=1556s
+[156/256 units] OK   u=111(poly=0 blk=111)  ok=156  q=10366k  elapsed=2403s eta=1541s
+[157/256 units] OK   u=69(poly=0 blk=69)  ok=157  q=10433k  elapsed=2489s eta=1525s
+[158/256 units] OK   u=241(poly=1 blk=113)  ok=158  q=10499k  elapsed=2489s eta=1510s
+[159/256 units] OK   u=26(poly=0 blk=26)  ok=159  q=10566k  elapsed=2493s eta=1494s
+[160/256 units] OK   u=198(poly=1 blk=70)  ok=160  q=10632k  elapsed=2493s eta=1479s
+[161/256 units] OK   u=155(poly=1 blk=27)  ok=161  q=10699k  elapsed=2494s eta=1464s
+[162/256 units] OK   u=112(poly=0 blk=112)  ok=162  q=10765k  elapsed=2495s eta=1448s
+[163/256 units] OK   u=70(poly=0 blk=70)  ok=163  q=10831k  elapsed=2581s eta=1432s
+[164/256 units] OK   u=242(poly=1 blk=114)  ok=164  q=10898k  elapsed=2581s eta=1417s
+[165/256 units] OK   u=27(poly=0 blk=27)  ok=165  q=10964k  elapsed=2585s eta=1402s
+[166/256 units] OK   u=199(poly=1 blk=71)  ok=166  q=11031k  elapsed=2585s eta=1386s
+[167/256 units] OK   u=156(poly=1 blk=28)  ok=167  q=11097k  elapsed=2586s eta=1371s
+[168/256 units] OK   u=113(poly=0 blk=113)  ok=168  q=11164k  elapsed=2587s eta=1355s
+[169/256 units] OK   u=71(poly=0 blk=71)  ok=169  q=11230k  elapsed=2673s eta=1340s
+[170/256 units] OK   u=243(poly=1 blk=115)  ok=170  q=11296k  elapsed=2673s eta=1324s
+[171/256 units] OK   u=28(poly=0 blk=28)  ok=171  q=11363k  elapsed=2677s eta=1309s
+[172/256 units] OK   u=200(poly=1 blk=72)  ok=172  q=11429k  elapsed=2677s eta=1294s
+[173/256 units] OK   u=157(poly=1 blk=29)  ok=173  q=11496k  elapsed=2678s eta=1278s
+[174/256 units] OK   u=114(poly=0 blk=114)  ok=174  q=11562k  elapsed=2679s eta=1263s
+[175/256 units] OK   u=72(poly=0 blk=72)  ok=175  q=11628k  elapsed=2764s eta=1247s
+[176/256 units] OK   u=244(poly=1 blk=116)  ok=176  q=11695k  elapsed=2764s eta=1232s
+[177/256 units] OK   u=201(poly=1 blk=73)  ok=177  q=11761k  elapsed=2769s eta=1216s
+[178/256 units] OK   u=29(poly=0 blk=29)  ok=178  q=11828k  elapsed=2769s eta=1201s
+[179/256 units] OK   u=158(poly=1 blk=30)  ok=179  q=11894k  elapsed=2769s eta=1186s
+[180/256 units] OK   u=115(poly=0 blk=115)  ok=180  q=11961k  elapsed=2771s eta=1170s
+[181/256 units] OK   u=245(poly=1 blk=117)  ok=181  q=12027k  elapsed=2856s eta=1155s
+[182/256 units] OK   u=73(poly=0 blk=73)  ok=182  q=12093k  elapsed=2856s eta=1139s
+[183/256 units] OK   u=202(poly=1 blk=74)  ok=183  q=12160k  elapsed=2861s eta=1124s
+[184/256 units] OK   u=30(poly=0 blk=30)  ok=184  q=12226k  elapsed=2861s eta=1108s
+[185/256 units] OK   u=159(poly=1 blk=31)  ok=185  q=12293k  elapsed=2861s eta=1093s
+[186/256 units] OK   u=116(poly=0 blk=116)  ok=186  q=12359k  elapsed=2863s eta=1077s
+[187/256 units] OK   u=246(poly=1 blk=118)  ok=187  q=12426k  elapsed=2948s eta=1062s
+[188/256 units] OK   u=74(poly=0 blk=74)  ok=188  q=12492k  elapsed=2948s eta=1047s
+[189/256 units] OK   u=203(poly=1 blk=75)  ok=189  q=12558k  elapsed=2952s eta=1031s
+[190/256 units] OK   u=31(poly=0 blk=31)  ok=190  q=12625k  elapsed=2953s eta=1016s
+[191/256 units] OK   u=160(poly=1 blk=32)  ok=191  q=12691k  elapsed=2953s eta=1000s
+[192/256 units] OK   u=117(poly=0 blk=117)  ok=192  q=12758k  elapsed=2955s eta=985s
+[193/256 units] OK   u=247(poly=1 blk=119)  ok=193  q=12824k  elapsed=3040s eta=970s
+[194/256 units] OK   u=75(poly=0 blk=75)  ok=194  q=12891k  elapsed=3040s eta=954s
+[195/256 units] OK   u=204(poly=1 blk=76)  ok=195  q=12957k  elapsed=3044s eta=939s
+[196/256 units] OK   u=32(poly=0 blk=32)  ok=196  q=13024k  elapsed=3045s eta=923s
+[197/256 units] OK   u=161(poly=1 blk=33)  ok=197  q=13090k  elapsed=3045s eta=908s
+[198/256 units] OK   u=118(poly=0 blk=118)  ok=198  q=13156k  elapsed=3047s eta=892s
+[199/256 units] OK   u=248(poly=1 blk=120)  ok=199  q=13223k  elapsed=3132s eta=877s
+[200/256 units] OK   u=76(poly=0 blk=76)  ok=200  q=13289k  elapsed=3132s eta=862s
+[201/256 units] OK   u=205(poly=1 blk=77)  ok=201  q=13356k  elapsed=3136s eta=846s
+[202/256 units] OK   u=162(poly=1 blk=34)  ok=202  q=13422k  elapsed=3137s eta=831s
+[203/256 units] OK   u=33(poly=0 blk=33)  ok=203  q=13489k  elapsed=3137s eta=816s
+[204/256 units] OK   u=119(poly=0 blk=119)  ok=204  q=13555k  elapsed=3139s eta=800s
+[205/256 units] OK   u=249(poly=1 blk=121)  ok=205  q=13622k  elapsed=3224s eta=785s
+[206/256 units] OK   u=77(poly=0 blk=77)  ok=206  q=13688k  elapsed=3224s eta=769s
+[207/256 units] OK   u=206(poly=1 blk=78)  ok=207  q=13754k  elapsed=3228s eta=754s
+[208/256 units] OK   u=163(poly=1 blk=35)  ok=208  q=13821k  elapsed=3229s eta=739s
+[209/256 units] OK   u=34(poly=0 blk=34)  ok=209  q=13887k  elapsed=3229s eta=723s
+[210/256 units] OK   u=120(poly=0 blk=120)  ok=210  q=13954k  elapsed=3231s eta=708s
+[211/256 units] OK   u=250(poly=1 blk=122)  ok=211  q=14020k  elapsed=3316s eta=692s
+[212/256 units] OK   u=78(poly=0 blk=78)  ok=212  q=14087k  elapsed=3316s eta=677s
+[213/256 units] OK   u=207(poly=1 blk=79)  ok=213  q=14153k  elapsed=3320s eta=662s
+[214/256 units] OK   u=164(poly=1 blk=36)  ok=214  q=14220k  elapsed=3321s eta=646s
+[215/256 units] OK   u=35(poly=0 blk=35)  ok=215  q=14286k  elapsed=3321s eta=631s
+[216/256 units] OK   u=121(poly=0 blk=121)  ok=216  q=14352k  elapsed=3323s eta=615s
+[217/256 units] OK   u=251(poly=1 blk=123)  ok=217  q=14419k  elapsed=3407s eta=600s
+[218/256 units] OK   u=79(poly=0 blk=79)  ok=218  q=14485k  elapsed=3408s eta=585s
+[219/256 units] OK   u=208(poly=1 blk=80)  ok=219  q=14552k  elapsed=3412s eta=569s
+[220/256 units] OK   u=165(poly=1 blk=37)  ok=220  q=14618k  elapsed=3413s eta=554s
+[221/256 units] OK   u=36(poly=0 blk=36)  ok=221  q=14685k  elapsed=3413s eta=538s
+[222/256 units] OK   u=122(poly=0 blk=122)  ok=222  q=14751k  elapsed=3415s eta=523s
+[223/256 units] OK   u=252(poly=1 blk=124)  ok=223  q=14818k  elapsed=3499s eta=508s
+[224/256 units] OK   u=80(poly=0 blk=80)  ok=224  q=14884k  elapsed=3500s eta=492s
+[225/256 units] OK   u=209(poly=1 blk=81)  ok=225  q=14950k  elapsed=3504s eta=477s
+[226/256 units] OK   u=166(poly=1 blk=38)  ok=226  q=15017k  elapsed=3505s eta=461s
+[227/256 units] OK   u=37(poly=0 blk=37)  ok=227  q=15083k  elapsed=3505s eta=446s
+[228/256 units] OK   u=123(poly=0 blk=123)  ok=228  q=15150k  elapsed=3506s eta=431s
+[229/256 units] OK   u=253(poly=1 blk=125)  ok=229  q=15216k  elapsed=3591s eta=415s
+[230/256 units] OK   u=81(poly=0 blk=81)  ok=230  q=15282k  elapsed=3592s eta=400s
+[231/256 units] OK   u=210(poly=1 blk=82)  ok=231  q=15349k  elapsed=3596s eta=384s
+[232/256 units] OK   u=167(poly=1 blk=39)  ok=232  q=15415k  elapsed=3596s eta=369s
+[233/256 units] OK   u=38(poly=0 blk=38)  ok=233  q=15482k  elapsed=3597s eta=354s
+[234/256 units] OK   u=124(poly=0 blk=124)  ok=234  q=15548k  elapsed=3598s eta=338s
+[235/256 units] OK   u=254(poly=1 blk=126)  ok=235  q=15615k  elapsed=3683s eta=323s
+[236/256 units] OK   u=82(poly=0 blk=82)  ok=236  q=15681k  elapsed=3683s eta=308s
+[237/256 units] OK   u=211(poly=1 blk=83)  ok=237  q=15747k  elapsed=3688s eta=292s
+[238/256 units] OK   u=168(poly=1 blk=40)  ok=238  q=15814k  elapsed=3688s eta=277s
+[239/256 units] OK   u=39(poly=0 blk=39)  ok=239  q=15880k  elapsed=3689s eta=261s
+[240/256 units] OK   u=125(poly=0 blk=125)  ok=240  q=15947k  elapsed=3690s eta=246s
+[241/256 units] OK   u=255(poly=1 blk=127)  ok=241  q=16013k  elapsed=3775s eta=231s
+[242/256 units] OK   u=83(poly=0 blk=83)  ok=242  q=16080k  elapsed=3775s eta=215s
+[243/256 units] OK   u=169(poly=1 blk=41)  ok=243  q=16146k  elapsed=3780s eta=200s
+[244/256 units] OK   u=212(poly=1 blk=84)  ok=244  q=16212k  elapsed=3780s eta=185s
+[245/256 units] OK   u=40(poly=0 blk=40)  ok=245  q=16279k  elapsed=3781s eta=169s
+[246/256 units] OK   u=126(poly=0 blk=126)  ok=246  q=16345k  elapsed=3782s eta=154s
+[247/256 units] OK   u=84(poly=0 blk=84)  ok=247  q=16412k  elapsed=3867s eta=138s
+[248/256 units] OK   u=170(poly=1 blk=42)  ok=248  q=16478k  elapsed=3872s eta=123s
+[249/256 units] OK   u=213(poly=1 blk=85)  ok=249  q=16545k  elapsed=3872s eta=108s
+[250/256 units] OK   u=41(poly=0 blk=41)  ok=250  q=16611k  elapsed=3873s eta=92s
+[251/256 units] OK   u=127(poly=0 blk=127)  ok=251  q=16678k  elapsed=3874s eta=77s
+[252/256 units] OK   u=85(poly=0 blk=85)  ok=252  q=16744k  elapsed=3959s eta=63s
+[253/256 units] OK   u=171(poly=1 blk=43)  ok=253  q=16811k  elapsed=3964s eta=47s
+[254/256 units] OK   u=214(poly=1 blk=86)  ok=254  q=16877k  elapsed=3964s eta=31s
+[255/256 units] OK   u=42(poly=0 blk=42)  ok=255  q=16944k  elapsed=3965s eta=16s
+[256/256 units] OK   u=128(poly=1 blk=0)  ok=256  q=17010k  elapsed=3966s eta=0s
+FULL-KEY TIMING RECOVERY  threads=6  R=7 V=7 screen=0.35 Rs=7
+params: q=257 n=256 K=2 D_C2_BITS=3  units=256 (=512 coeffs)
+
+[calibrate] median dS=15326 ns  screen=5364  vote=12261
+
+
+RESULT: units unique+correct 256/256  sk coeff mismatch 0/512  wall=3966.2 s (66.10 min)
+  oracle decaps (diff pairs *2): 17010803 differential measurements
+  fresh ct, recovered sk : OK (plaintext recovered)
